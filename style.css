@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+div {
+	box-sizing: border-box;
+}
+
+#content {
+	background: rgba(255, 255, 255, 0.74);
+}
+
+
+@media all and (min-device-width: 980px) {
+	body {
+		height: 100%;
+		width: 100%;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background-image: url(background.jpg);
+		margin: 0;
+		padding-right: 0;
+		padding-left: 0;
+		background-size: cover;
+		color: #464646;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	#content {
+		height: 360px;
+		margin-top: 110px;
+		margin-bottom: 110px;
+		position: relative;
+	}
+
+	#top {
+		background-image: url(images/napis.png);
+		position: absolute;
+		height: 236px;
+		width: 980px;
+		top: 10px;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+	}
+
+	#facebook {
+	background-image:url(przyciski/Fb-button.png);
+	height:201px;
+	width:258px;
+	position: absolute; 
+	left: 15%;
+	top: 50px;
+	}
+
+	#opolezone {
+	background-image:url(przyciski/Op-button.png);
+	height:201px;
+	width:258px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin: -0px 0 0 -129px;
+	
+	}
+
+	#youtube {
+	background-image:url(przyciski/Yo-button.png);
+	height:201px;
+	width:258px;
+	position: absolute; 
+	right: 15%;
+	top: 50px; 
+	}
+
+	#bottom2f {
+		background-image: url(przyciski/bottom2f.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+	#bottom2fr {
+		background-image: url(przyciski/bottom2fr.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+	#bottom2y {
+		background-image: url(przyciski/bottom2y.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+
+	/*
+	Wersja pionowa desktopowa
+	*/
+
+	@media all and (max-width: 979px) {
+		body {
+			height: 100%;
+			width: 100%;
+			padding-top: 100px;
+			padding-bottom: 100px;
+			background-image: url(background.jpg);
+			margin: 0;
+			padding-right: 0;
+			padding-left: 0;
+			background-size: cover;
+			color: #464646;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+		#content {
+			height: 800px;
+			margin-top: 60px;
+			margin-bottom: 110px;
+			position: relative;
+		}
+
+		#top {
+			background-image: url(images/napis2.png);
+			position: absolute;
+			height: 144px;
+			width: 600px;
+			top: 10px;
+			left: 50%;
+			margin: -0px 0 0 -300px;
+		}
+
+		#facebook {
+		background-image:url(przyciski/Fb-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		}
+
+		#opolezone {
+		background-image:url(przyciski/Op-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 300px;
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		
+		}
+
+		#youtube {
+		background-image:url(przyciski/Yo-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 550px; 
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		}
+
+		#bottom2f {
+			background-image: url(przyciski/bottom2ff.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+
+		#bottom2fr {
+			background-image: url(przyciski/bottom2frr.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+
+		#bottom2y {
+			background-image: url(przyciski/bottom2yy.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+	}
+}
+
+
+/*
+Wersja mobilna
+*/
+
+
+@media all and (max-device-width: 979px) {
+
+	body {
+		height: 100%;
+		width: 100%;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background-image: url(background.jpg);
+		margin: 0;
+		padding-right: 0;
+		padding-left: 0;
+		background-size: cover;
+		color: #464646;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+
+	#content {
+		height: 360px;
+		margin-top: 110px;
+		margin-bottom: 110px;
+		position: relative;
+	}
+
+	#top {
+		background-image: url(images/napis.png);
+		position: absolute;
+		height: 236px;
+		width: 980px;
+		top: 10px;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+	}
+
+	#facebook {
+	background-image:url(przyciski/Fb-button.png);
+	height:201px;
+	width:258px;
+	position: absolute; 
+	left: 15%;
+	top: 50px;
+	}
+
+	#opolezone {
+	background-image:url(przyciski/Op-button.png);
+	height:201px;
+	width:258px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin: -0px 0 0 -129px;	
+	}
+
+	#youtube {
+	background-image:url(przyciski/Yo-button.png);
+	height:201px;
+	width:258px;
+	position: absolute; 
+	right: 15%;
+	top: 50px; 
+	}
+
+	#bottom2f {
+		background-image: url(przyciski/bottom2ff.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+	#bottom2fr {
+		background-image: url(przyciski/bottom2frr.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+	#bottom2y {
+		background-image: url(przyciski/bottom2yy.png);
+		height: 100px;
+		width: 980px;
+		position: absolute;
+		left: 50%;
+		margin: -0px 0 0 -490px;
+		top: 260px;
+		visibility: hidden;
+	}
+
+
+	/*
+	wersja pionowa mobilna
+	*/
+
+	
+	@media all and (min-height: 900px) {
+
+		body {
+		height: 100%;
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 400px;
+		background-image: url(background.jpg);
+		margin: 0;
+		padding-right: 0;
+		padding-left: 0;
+		background-size: cover;
+		color: #464646;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+		#content {
+			height: 800px;
+			margin-top: 200px;
+			margin-bottom: 200px;
+			position: relative;
+		}
+
+		#top {
+			background-image: url(images/napis.png);
+			position: absolute;
+			height: 236px;
+			width: 980px;
+			top: 60px;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+		}
+
+		#facebook {
+		background-image:url(przyciski/Fb-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		}
+
+		#opolezone {
+		background-image:url(przyciski/Op-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 300px;
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		
+		}
+
+		#youtube {
+		background-image:url(przyciski/Yo-button.png);
+		height:201px;
+		width:258px;
+		position: absolute;
+		top: 550px; 
+		left: 50%;
+		margin: -0px 0 0 -129px;
+		}
+
+		#bottom2f {
+			background-image: url(przyciski/bottom2ff.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+
+		#bottom2fr {
+			background-image: url(przyciski/bottom2frr.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+
+		#bottom2y {
+			background-image: url(przyciski/bottom2yy.png);
+			height: 100px;
+			width: 80px;
+			position: absolute;
+			left: 50%;
+			margin: -0px 0 0 -490px;
+			top: 260px;
+			visibility: hidden;
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
